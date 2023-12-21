@@ -20,7 +20,6 @@ def wrtimgtopdf(imgto):
 # one inch is 72 pixels ig
 inch = 72
 
-papersize = input("Paper size? (ex. '8.5,11' means US Letter paper (8.5 in. x 11 in.)) ").split(",")
 rootdir = input("Stitch which folder? ")
 chform = input("Chapter format? (ex. '11,20' would mean folders 'c011, c012, ..., c020') ").split(",")
 imgamount = input("Image amount? (ex. '31,10' would mean Ch. 1 has 31 images, and Ch. 2 has 10) ").split(",")
