@@ -22,7 +22,7 @@ inch = 72
 
 rootdir = input("Stitch which folder? ")
 chform = input("Chapter format? (ex. '11,20' would mean folders 'c011, c012, ..., c020') ").split(",")
-imgamount = input("Image amount? (ex. '31,10' would mean Ch. 1 has 31 images, and Ch. 2 has 10) ").split(",")
+input("Important: All files in chapter subdirectories must be image files")
 
 # makes temporary directory to store pdfs in
 os.mkdir("pdftemps")
