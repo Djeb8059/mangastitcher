@@ -12,3 +12,5 @@ how to use:
   8. then which chapters (for example 1,5 for chapters 1-5 in the manga folder) IMPORTANT: you have to do the actual chapter numbers
   9. then it'll ask you how many images there are in each chapter (for example, if there are 20 images in the 1st chapter, 31 images in the second, and 19 in the third put 20,31,19)
   10. then yeah its done
+
+too lazy to build exe version but i'll do it someday
