@@ -7,8 +7,7 @@ How to use:
   3. Make sure directories are like this:
   4. whatever/mgst.py and whatever/manga/(ex. c001 for chapter 1)
   5. Run mangastitcher
-  6. It'll ask you what paper size you want each page to be (I just do letter (8.5 x 11 in))
-  7. Then it'll ask you which folder to stitch (do the manga root folder (whatever/manga in my example))
+  7. It'll ask you which folder to stitch (do the manga root folder (whatever/manga in my example))
   8. Then which chapters are in the folder (or which ones you want to stitch) (For example, 1,5 for chapters 1-5 in the manga folder) IMPORTANT: You have to do the actual chapter numbers, I know mangakatana lets you download chapters in groups of ten, but this program gets the absolute chapter numbers
   9. It'll then ask you how many images there are in each chapter (For example, if there are 20 images in the 1st chapter, 31 images in the second, and 19 in the third put 20,31,19)
   10. Then if it completed successfully it'll tell you (if it doesn't you screwed up on your part 💀)
