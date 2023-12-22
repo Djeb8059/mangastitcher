@@ -1,4 +1,6 @@
-This is for you swashbuckling eyepatchers who read manga off of mangakatana.com
+IMPORTANT: This tool only works with manga downloaded off of mangakatana.com, you can modify the code if you need to and fork it or something
+
+This is for you swashbuckling eyepatchers who read manga off of mangakatana.com.
 I'm also a swashbuckling eyepatcher so I made this python script that "stitches" pages together (as they are all seperate images) into a pdf
 
 How to use with easygui:
