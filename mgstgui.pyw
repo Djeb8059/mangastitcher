@@ -23,7 +23,7 @@ inch = 72
 rootdir = easygui.diropenbox(title="Select the folder your manga's chapters are in | Mangastitcher")
 if not rootdir:
     quit()
-chform = easygui.multenterbox(title= "Mangastitcher", msg="Which chapters to stitch? (Every chapter in between is stitched, ending chapter included)", fields=["Chapter prefix", "Starting chapter", "Ending chapter"], values=["c", "1", "10"])
+chform = easygui.multenterbox(title= "Mangastitcher", msg="Which chapters to stitch? (Every chapter in between is stitched, ending chapter included)", fields=["Starting chapter", "Ending chapter"], values=["1", "10"])
 if not chform:
     quit()
 easygui.msgbox(title="Mangastitcher", msg="Important: All files in each chapter subdirectory must be images")
@@ -34,8 +34,8 @@ temps = os.path.dirname(os.path.abspath(__file__)) + "\\pdftemps"
 
 with pypdf.PdfWriter() as writer:
 
-    for ch in range(int(chform[1]), int(chform[2]) + 1):
-        chpath = rootdir + "\\" + chform[0] + addzero(ch, 3)
+    for ch in range(int(chform[0]), int(chform[1]) + 1):
+        chpath = rootdir + "\\c" + addzero(ch, 3)
         for img in range(1, len(os.listdir(chpath))):
             # defining paths and stuff
             imgpath = chpath + "\\" + addzero(img, 3) + ".jpg"
